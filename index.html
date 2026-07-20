@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Maridos de Alquiler Costa Rica | Acompañamiento Social</title>
+
+<meta name="description" content="Servicio profesional de acompañamiento social en Costa Rica para eventos, cenas, reuniones y experiencias especiales.">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+
+<style>
+
+:root{
+--gold:#d4af37;
+--dark:#070707;
+--card:#111;
+--white:#fff;
+}
+
+
+*{
+box-sizing:border-box;
+}
+
+
+body{
+
+margin:0;
+background:var(--dark);
+color:white;
+font-family:
+'Segoe UI',
+Arial,
+sans-serif;
+
+}
+
+
+
+.navbar{
+
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(12px);
+
+}
+
+
+.brand{
+
+color:var(--gold)!important;
+font-weight:900;
+letter-spacing:1px;
+
+}
+
+
+
+/* HERO */
+
+
+.hero{
+
+min-height:90vh;
+display:flex;
+align-items:center;
+
+background:
+linear-gradient(
+rgba(0,0,0,.75),
+rgba(0,0,0,.95)
+),
+url("https://images.unsplash.com/photo-1500648767791-00dcc994a43e")
+center/cover;
+
+}
+
+
+
+.hero h1{
+
+font-size:clamp(38px,6vw,70px);
+font-weight:900;
+text-transform:uppercase;
+
+}
+
+
+.gold{
+
+color:var(--gold);
+
+}
+
+
+.hero p{
+
+font-size:20px;
+max-width:600px;
+color:#ddd;
+
+}
+
+
+.btn-gold{
+
+background:var(--gold);
+color:#000;
+font-weight:800;
+padding:14px 35px;
+border-radius:50px;
+border:none;
+
+transition:.3s;
+
+}
+
+
+.btn-gold:hover{
+
+transform:translateY(-4px);
+background:#f0ca45;
+
+}
+
+
+
+/* SECCIONES */
+
+
+.section{
+
+padding:80px 0;
+
+}
+
+
+.title{
+
+text-align:center;
+margin-bottom:50px;
+
+}
+
+
+.title h2{
+
+font-size:42px;
+font-weight:900;
+
+}
+
+
+
+/* CARDS */
+
+
+.profile{
+
+background:
+linear-gradient(
+145deg,
+#171717,
+#080808
+);
+
+border-radius:25px;
+overflow:hidden;
+border:1px solid #222;
+
+height:100%;
+
+transition:.3s;
+
+}
+
+
+.profile:hover{
+
+transform:translateY(-8px);
+box-shadow:
+0 20px 50px
+rgba(212,175,55,.25);
+
+}
+
+
+.profile img{
+
+width:100%;
+height:360px;
+object-fit:cover;
+
+}
+
+
+
+.profile-body{
+
+padding:25px;
+
+}
+
+
+
+.profile h3{
+
+font-size:26px;
+
+}
+
+
+
+.location{
+
+color:var(--gold);
+font-weight:bold;
+
+}
+
+
+
+.tag{
+
+display:inline-block;
+background:#222;
+padding:6px 14px;
+border-radius:20px;
+font-size:13px;
+margin:3px;
+
+}
+
+
+
+/* BOTONES */
+
+
+.actions{
+
+display:flex;
+gap:10px;
+margin-top:20px;
+
+}
+
+
+
+.actions a{
+
+flex:1;
+padding:12px;
+border-radius:30px;
+text-align:center;
+font-weight:bold;
+text-decoration:none;
+
+}
+
+
+.whatsapp{
+
+background:#25D366;
+color:white;
+
+}
+
+
+.call{
+
+background:white;
+color:black;
+
+}
+
+
+
+/* FLOAT */
+
+.float-wa{
+
+position:fixed;
+right:25px;
+bottom:25px;
+
+width:60px;
+height:60px;
+
+background:#25D366;
+color:white;
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:32px;
+
+z-index:999;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<nav class="navbar navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand brand">
+
+<i class="fa-solid fa-user-tie"></i>
+
+Maridos de Alquiler Costa Rica
+
+</a>
+
+</div>
+
+</nav>
+
+
+
+<section class="hero">
+
+<div class="container">
+
+<h1>
+Acompañamiento
+<span class="gold">
+Premium
+</span>
+</h1>
+
+
+<p>
+
+Experiencias sociales exclusivas para eventos,
+cenas, reuniones y ocasiones especiales.
+
+</p>
+
+
+<a href="#perfiles"
+class="btn btn-gold">
+
+Ver perfiles
+
+</a>
+
+
+</div>
+
+</section>
+
+
+
+<section class="section" id="perfiles">
+
+<div class="container">
+
+
+<div class="title">
+
+<h2>
+Nuestros
+<span class="gold">
+Perfiles
+</span>
+</h2>
+
+
+<p>
+Profesionales disponibles para acompañamiento social.
+</p>
+
+
+</div>
+
+
+
+<div class="row g-4">
+
+
+<!-- PERFIL 1 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="profile">
+
+
+<img loading="lazy"
+src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+alt="Daniel">
+
+
+<div class="profile-body">
+
+
+<h3>Daniel</h3>
+
+
+<div class="location">
+<i class="fa-solid fa-location-dot"></i>
+San José
+</div>
+
+
+<span class="tag">Eventos</span>
+<span class="tag">Cenas</span>
+<span class="tag">Conversación</span>
+
+
+<p>
+Profesional educado y preparado para experiencias sociales.
+</p>
+
+
+<div class="actions">
+
+<a class="whatsapp"
+href="https://wa.me/50670000001">
+
+<i class="fa-brands fa-whatsapp"></i>
+WhatsApp
+
+</a>
+
+
+<a class="call"
+href="tel:+50670000001">
+
+<i class="fa-solid fa-phone"></i>
+Llamar
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+  <!-- PERFIL 2 -->
+
+<div class="col-lg-4 col-md-6">
+
+<div class="profile">
+
+<img 
+loading="lazy"
+src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea"
+alt="Marco">
+
+
+<div class="profile-body">
+
+<h3>Marco</h3>
+
+
+<div class="location">
+<i class="fa-solid fa-location-dot"></i>
+Escazú
+</div>
+
+
+<span class="tag">Eventos</span>
+<span class="tag">Viajes</span>
+<span class="tag">Lifestyle</span>
+
+
+<p>
+Personalidad tranquila, excelente presentación
+y experiencia en acompañamiento social.
+</p>
+
+
+<div class="actions">
+
+<a class="whatsapp"
+href="https://wa.me/50670000002">
+
+<i class="fa-brands fa-whatsapp"></i>
+WhatsApp
+
+</a>
+
+
+<a class="call"
+href="tel:+50670000002">
+
+<i class="fa-solid fa-phone"></i>
+Llamar
+
+</a>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- PERFIL 3 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+<div class="profile">
+
+<img 
+loading="lazy"
+src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+alt="Alejandro">
+
+
+<div class="profile-body">
+
+<h3>Alejandro</h3>
+
+
+<div class="location">
+
+<i class="fa-solid fa-location-dot"></i>
+
+Heredia
+
+</div>
+
+
+<span class="tag">Cultura</span>
+<span class="tag">Eventos</span>
+<span class="tag">Conversación</span>
+
+
+<p>
+Profesional atento y preparado para actividades
+sociales, reuniones y experiencias especiales.
+</p>
+
+
+<div class="actions">
+
+
+<a class="whatsapp"
+href="https://wa.me/50670000003">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+WhatsApp
+
+</a>
+
+
+<a class="call"
+href="tel:+50670000003">
+
+<i class="fa-solid fa-phone"></i>
+
+Llamar
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<!-- PERFIL 4 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+<div class="profile">
+
+
+<img 
+loading="lazy"
+src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+alt="Sebastián">
+
+
+<div class="profile-body">
+
+
+<h3>Sebastián</h3>
+
+
+<div class="location">
+
+<i class="fa-solid fa-location-dot"></i>
+
+Alajuela
+
+</div>
+
+
+<span class="tag">Eventos</span>
+<span class="tag">Fotografía</span>
+<span class="tag">Conversación</span>
+
+
+<p>
+Acompañamiento elegante con trato cordial
+para ocasiones especiales.
+</p>
+
+
+<div class="actions">
+
+
+<a class="whatsapp"
+href="https://wa.me/50670000004">
+
+
+<i class="fa-brands fa-whatsapp"></i>
+
+WhatsApp
+
+
+</a>
+
+
+<a class="call"
+href="tel:+50670000004">
+
+<i class="fa-solid fa-phone"></i>
+
+Llamar
+
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<!-- PERFIL 5 -->
+
+
+<div class="col-lg-4 col-md-6">
+
+
+<div class="profile">
+
+
+<img 
+loading="lazy"
+src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128"
+alt="Andrés">
+
+
+<div class="profile-body">
+
+
+<h3>Andrés</h3>
+
+
+<div class="location">
+
+<i class="fa-solid fa-location-dot"></i>
+
+Cartago
+
+</div>
+
+
+
+<span class="tag">Cenas</span>
+<span class="tag">Eventos</span>
+<span class="tag">Viajes</span>
+
+
+
+<p>
+
+Caballero profesional con excelente trato
+y disponibilidad para acompañamiento social.
+
+</p>
+
+
+
+<div class="actions">
+
+
+<a class="whatsapp"
+href="https://wa.me/50670000005">
+
+
+<i class="fa-brands fa-whatsapp"></i>
+
+WhatsApp
+
+
+</a>
+
+
+<a class="call"
+href="tel:+50670000005">
+
+
+<i class="fa-solid fa-phone"></i>
+
+Llamar
+
+
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- COMO FUNCIONA -->
+
+
+<section class="section">
+
+<div class="container">
+
+
+<div class="title">
+
+<h2>
+
+¿Cómo funciona?
+
+</h2>
+
+</div>
+
+
+<div class="glass">
+
+
+<p>
+✔ Selecciona un perfil disponible.
+</p>
+
+
+<p>
+✔ Contacta directamente para consultar disponibilidad.
+</p>
+
+
+<p>
+✔ Coordina una experiencia social según tus necesidades.
+</p>
+
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- FAQ -->
+
+
+<section class="section">
+
+
+<div class="container">
+
+
+<div class="title">
+
+<h2>
+Preguntas
+<span class="gold">
+Frecuentes
+</span>
+</h2>
+
+
+</div>
+
+
+
+<div class="glass">
+
+
+<h5>
+¿Dónde está disponible el servicio?
+</h5>
+
+<p>
+Principalmente en Costa Rica, dependiendo de disponibilidad.
+</p>
+
+
+
+<h5>
+¿Para qué ocasiones se puede solicitar?
+</h5>
+
+<p>
+Eventos, cenas, reuniones, viajes y actividades sociales.
+</p>
+
+
+
+<h5>
+¿Es un servicio profesional?
+</h5>
+
+<p>
+Sí, enfocado exclusivamente en acompañamiento social.
+</p>
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<footer class="section text-center">
+
+
+<div class="container">
+
+
+<h3 class="gold">
+
+Maridos de Alquiler Costa Rica
+
+</h3>
+
+
+<p>
+
+© 2026 Todos los derechos reservados.
+
+</p>
+
+
+<p class="small text-secondary">
+
+Servicio de acompañamiento social para adultos.
+No ofrecemos servicios sexuales.
+
+</p>
+
+
+</div>
+
+
+</footer>
+
+
+
+
+<!-- BOTON WHATSAPP FLOTANTE -->
+
+
+<a 
+class="float-wa"
+href="https://wa.me/50670000000">
+
+
+<i class="fa-brands fa-whatsapp"></i>
+
+
+</a>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
